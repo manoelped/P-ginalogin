@@ -1,0 +1,21 @@
+body{
+     background-color: aliceblue;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+}
+button{
+     border-radius: 5px;
+     padding: 10px;
+     background-color: orangered;
+}
+.textodapag{
+     padding: 14px 16px;
+}
+label{
+     width: 100%;
+     padding: 5px;
+}
+.textodapag{
+     display: inline-block;
+     align-items: center;
+}

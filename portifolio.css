@@ -1,0 +1,48 @@
+.barra-lateral{
+    width: 200px;
+    height: 100vh;
+    background-color: gray;
+    color: #000814;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 25px;
+    border-radius: 10px;;
+    text-align: start;
+}
+    body{
+        background-color: #dee2e6;
+        height: 100vh;
+        text-align: center;
+        margin-left: 220px;
+        }
+  img {
+    width: 200px;
+  }
+.botoesintro{
+  color: white;
+  background-color: #1b263b;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 18px;
+  margin-right: 10px;
+}
+.botoesintro:hover{
+  background-color: #778da9;
+  color: #1b263b;
+  border: solid 1px #1b263b;
+}
+h2{
+  background-color: #52b69a;
+  padding: 20px;
+  text-align: center;
+}
+.textbl{
+  text-align: start;
+}
+.intro{
+   height: 100vh;
+}
+  i{
+  color: #dee2e6;
+}

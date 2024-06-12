@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpot" content="width=device-width,initial-scale=1.0">
+    <title>My page cadastro</title>
+    <link rel="shortcuti icon" type="imagex/png" href="flor do mario 3d.jpg">
+    <title>cadastro my page</title>
+    <style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;}
+
+  input[type=tel]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid aliceblue;
+  border-radius: 4px;
+  box-sizing: border-box;}
+
+input[type=submit] {
+  width: 100%;
+  background-color: deepskyblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: dodgerblue;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #ccc;
+  padding: 20px;
+}
+    </style>
+</head>
+<body>
+<h1>Faça seu cadastro</h1>
+<form action="CaminhoDoServidor" method="post">
+    <div class="dados-cadastro">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    </div>
+    <div class="dados-cadastro">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+         </div>
+         <div class="dados-cadastro">
+        <label for="telefone">Número de celular:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+         </div>
+        <div>
+        <label for="country">País</label>
+        <select id="country" name="country">
+          <option value="australia">Brasil</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    </div>
+         <div class="dados-cadastro">
+            <input type="submit" value="Enviar">
+             </div>
+            </form> 
+        
+</body>
+</html>

@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: "Raleway", Arial, sans-serif;
+}
+.content{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    font-size: 24px;
+    padding: 24px 16px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #fff;
+}
+header a{
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    display: inline-block;
+    background-color: #c1c1c1;
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+footer{
+    background-color: #f1f1f1;
+    padding: 64px 0px ;
+    text-align: center;
+}
+footer h2{
+    margin: 10px 0px;
+}
+footer img{
+    padding: 32px 0px;
+    width: 300px;
+    height: 300px;
+}
+footer form{
+    width: 60%;
+    margin: auto;
+}
+footer p{
+    font-size: 15px;
+    margin: 15px 0px;
+}
+#red{
+    color: #e91e63;
+    margin: 18px 0px;
+    font-size: 18px;
+}
+.areaformulario{
+    margin: 16px 0px;
+}
+.areaformulario input, textarea{
+    width: 100%;
+    padding: 8px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+.areaformulario textarea{
+    resize: none;
+}
+.areaformulario button{
+    width: 100%;
+    background-color: #616161;
+    padding: 8px 16px;
+    border: none;
+    color: #fff;
+}
+.areaformulario button:hover{
+    background-color: #acacac;
+    color: #000;
+}
+#me{
+    color: rgb(165, 0, 165);
+}
+@media only screen and (max-width: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+  }

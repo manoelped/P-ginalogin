@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+ <style>
+    body{
+        font-family: Arial,sans-serif;
+        background-color: #f4f4f4;
+    }
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: aliceblue;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    }
+    .formulario-dados{
+        margin-bottom: 15px;
+    }
+        label{
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"]{
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            background-color: deepskyblue;
+            color: aliceblue;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover{
+            background-color: dodgerblue;
+        }
+ </style>
+</head>
+ <body>
+<div class="container">
+ <h1>Cadastro</h1>
+  <form action="CaminhoDoServidor" method="post">
+    <div class="formulario-dados">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+    </div>
+    <div class="formulario-dados">
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email" required>
+    </div>
+    <div class="formulario-dados">
+   <label for="endereço">Endereço:</label>
+   <input type="text" id="endereço" name="endereço" required>
+    </div>
+    <div class="formulario-dados">
+   <label for="telefone">Número de celular:</label>
+   <input type="tel" id="telefone" name="telefone" required>
+    </div>
+    <div class="formulario-dados">
+        <input type="submit" value="Enviar">
+         </div>
+   
+
+  </form> 
+</div>
+ </body>
+</html>

@@ -1,0 +1,46 @@
+.navegation-bar{
+    overflow: hidden;
+    background-color: #f44336;
+    position: fixed;
+}
+.navegation-bar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navegation-bar a:hover {
+    background-color: white;
+    color: black;
+  }
+  .cabeçalho {
+    background-color: #f44336;
+    text-align: center;
+    color: #f2f2f2;
+    padding:128px 16px
+  }
+  .botaohome{
+    overflow: hidden;
+    background-color: gray;
+    color: black;
+  }
+   
+.botaohome a:hover {
+    background-color: #f2f2f2;
+  color: black;
+}
+
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.navegation-bar,h1,button {font-family: "Montserrat", sans-serif}
+.botao1 {
+    background-color: black; 
+    color: white; 
+    border: 2px solid #f44336;
+  }
+  
+  .botao1:hover {
+    background-color: gray;
+    color: black;
+  }
